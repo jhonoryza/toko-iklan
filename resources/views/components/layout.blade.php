@@ -7,14 +7,12 @@
     <title>Toko Iklan</title>
 
     @vite('resources/css/app.css')
-    @livewireStyles
-    
+    @filamentStyles
 </head>
-<body>
+<body class="antialiased">
     
     {{ $slot }}
     
-    @vite('resources/js/app.js')
-    @livewireScripts
+    @filamentScripts
 </body>
 </html>
